@@ -1,0 +1,43 @@
+{
+  "name": "servicios-api-dar",
+  "version": "1.0.0",
+  "description": "¡Gracias por tu interés en contribuir a Service-DAR! Valoramos y apreciamos la contribución de la comunidad. Antes de comenzar, por favor toma un momento para revisar las siguientes pautas y recomendaciones.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "coverage": "jest --collect-coverage",
+    "test:mocha": "mocha --require @babel/register"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "twilio": "^5.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "babel-jest": "^29.7.0",
+    "chai": "^5.1.1",
+    "jest": "^29.7.0",
+    "mocha": "^10.4.0",
+    "nodemon": "^3.0.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  }
+}
